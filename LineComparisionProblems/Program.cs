@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LineComparisionProblems;
+
+LineComparision length = new LineComparision(1, 2, 3, 4);
+length.CalculateLength();
